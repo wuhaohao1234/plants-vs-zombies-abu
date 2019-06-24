@@ -81,3 +81,19 @@ v0.1.2-0
 ➜  xxx git:(master) npm version premajor
 v1.0.0-0
 ➜  xxx git:(master) npm version major   
+
+## 开始架构
+
+1. 初始化
+
+`npm init -y`
+
+2. 添加淘宝镜像
+
+全局代码添加.npmrc文件,换源为淘宝镜像
+
+`registry=https://registry.npm.taobao.org/`
+
+3. 开发分支安装代码打包依赖项webpack,webpack-cli
+
+`npm i webpack webpack-cli -D`
