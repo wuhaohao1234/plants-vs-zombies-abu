@@ -17,3 +17,38 @@
 
 负责常见代码修复
 
+## 如何学习项目
+
+具体看git中的commit提交
+
+克隆该项目：
+
+`git clone https://github.com/wuhaohao1234/plants-vs-zombies-abu.git`
+
+拉取代码
+
+`git pull`
+
+选择分支
+
+`git branch`
+
+合并主干分支
+
+`git merge master`
+
+### 代码回滚片段
+
+`git log`查看代码commit纪录
+
+它是以vim进行查看
+
+每一个commit都有一段commit-id
+
+当然也可以用` git log --pretty=oneline`查看
+
+` git reset --hard HEAD^` 到上一个版本
+
+当然也可以根据每一个commit-id到指定的版本
+
+这里推荐一个工具souseTree，大家可以选择
